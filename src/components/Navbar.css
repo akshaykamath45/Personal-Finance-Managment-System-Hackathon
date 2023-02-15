@@ -1,0 +1,45 @@
+.navbar{
+    position:sticky;
+    top:0px;
+    height: 70px;
+    display: flex;
+    background-color: black;
+    opacity: 0.75;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+    margin-bottom: -70px;
+    z-index: 5;
+}
+.navbar_logo{
+    color: white;
+    font-family: 'Montecarlo', cursive;
+    font-size: 2.5rem;
+}
+.navbar_list{
+    display: flex;
+    list-style: none;
+}
+.navbar_item{
+    white-space: nowrap;
+
+}
+.navbar_link{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:0px 5px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: transparent;
+    transition: 250ms;
+}
+
+.navbar_item:hover{
+    border-color: white;
+    transition: 250ms;
+    border: width 0px;
+    opacity: 0.9;
+}
