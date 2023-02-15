@@ -1,6 +1,13 @@
 import React from "react";
 import "./Slider.css";
+import { useInView } from 'react-intersection-observer';
+
 export const Slider = ({ imageSrc, title, subtitle, flipped }) => {
+        const { ref, inView, entry } = useInView({
+          /* Optional options */
+          threshold: 0.4,
+         
+        });
   const renderContent = () => {
     if (!flipped) {
       return (
@@ -26,7 +33,7 @@ export const Slider = ({ imageSrc, title, subtitle, flipped }) => {
     }
   };
 
-  return <div className="slider">
+  return <div className={inView ?"slider slider--zoom" : "slider"} ref={ref} >
     {renderContent()}
   </div>;
 };
