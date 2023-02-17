@@ -13,7 +13,7 @@ export const Navbar = ({navbarLinks}) => {
     }
   return (
     <nav className='navbar'>
-        <span className="navbar_logo">Travell</span> 
+        <span className="navbar_logo">Dyme</span> 
 
         {menuClicked ? (<FiX size={25} className="navbar_menu" onClick={toggleMenuClick} />) : 
         (<FiMenu size={25} className="navbar_menu" onClick={toggleMenuClick} />)}

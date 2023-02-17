@@ -11,10 +11,11 @@
 }
 .hero_title{
     position: absolute;
-    bottom:15%;
-    right:10%;
-    color:#fff;
+    top:10%;
+    left:40%;
+    color:black;
     font-size: 4rem;
     padding:15px;
+    font-family: 'Montecarlo', cursive;
 
 }

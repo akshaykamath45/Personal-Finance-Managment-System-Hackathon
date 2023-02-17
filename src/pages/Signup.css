@@ -1,0 +1,169 @@
+ .signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color:rgba(14, 52, 167, 0.8); */
+    background-image: linear-gradient(to bottom, #369, #69c);
+
+}
+/* rgba(44, 250, 229, 0.8); */
+  
+  .image-svg{
+    padding: 30px;
+    margin-left:35px;
+    margin-right:5px;
+    height:50%
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    margin-left: 50%;
+    margin-right: 40%;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10px; */
+   /* margin-left: 0px;
+   margin-right:10px; */
+   margin: 10px 60px 10px 20px;
+   padding-left: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .sign-up{
+    padding-left: 5px;
+    margin-left: 35px;
+  }
+  /* input[type="email"],
+  input[type="password"] {
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left:15px;
+  } */
+  
+.form-submit{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .form-wrapper {
+
+    background-color: rgba(13, 150, 223, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-left: 25%;
+  } 
+
+  body{
+    background-color: rgb(191, 180, 179); 
+} 
+.heading{
+    font-family: 'Montecarlo', cursive;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right:30px;
+
+}
+
+ 
+ /* .signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #333;
+  padding: 20px;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* align-items: center;
+  width: 35%; */
+/* } */
+
+/* label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}  */
+/* 
+.form-wrapper {
+  background-color: rgba(152, 148, 148, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 100%;
+  margin: 0 auto;
+}
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+} */
