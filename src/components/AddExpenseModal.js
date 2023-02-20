@@ -1,6 +1,7 @@
 import { Form, Modal, Button } from "react-bootstrap"
 import { useRef } from "react"
 import { useBudgets, UNCATEGORIZED_BUDGET_ID } from "../contexts/BudgetsContext"
+
 export default function AddExpenseModal({
   show,
   handleClose,
@@ -23,12 +24,12 @@ export default function AddExpenseModal({
 
   return (
     <Modal show={show} onHide={handleClose}>
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} className="w-50">
         <Modal.Header closeButton>
           <Modal.Title>New Expense</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form.Group className="mb-4" controlId="description">
+          <Form.Group className="mb-3" controlId="description">
             <Form.Label>Description</Form.Label>
             <Form.Control ref={descriptionRef} type="text" required />
           </Form.Group>

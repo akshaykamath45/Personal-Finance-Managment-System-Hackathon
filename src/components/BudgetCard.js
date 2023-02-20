@@ -1,5 +1,7 @@
-import { Button, Card, ProgressBar, Stack } from "react-bootstrap"
+import { Button, Card, ProgressBar, Stack ,body} from "react-bootstrap"
 import { currencyFormatter } from "../utils"
+import './BudgettCard.css'
+
 export default function BudgetCard({
   name,
   amount,
@@ -17,6 +19,7 @@ export default function BudgetCard({
   }
 
   return (
+    <body className="card-body">
     <Card className={classNames.join(" ")}>
       <Card.Body>
         <Card.Title className="d-flex justify-content-between align-items-baseline fw-normal mb-3">
@@ -55,6 +58,7 @@ export default function BudgetCard({
         )}
       </Card.Body>
     </Card>
+    </body>
   )
 }
 

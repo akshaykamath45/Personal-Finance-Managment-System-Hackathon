@@ -1,0 +1,37 @@
+.body-styling{
+    background-color: #2167df; ;
+    height: 100vh;
+    color: rgb(255, 181, 20);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    
+ 
+}
+.container-styling{
+    padding-top:80px
+}
+.card-body{
+    background-color: #080753f6;
+    color: rgb(255, 181, 20);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(20, 151, 239);
+    box-shadow: 0 0 10px 0 #3b0cf8;
+}
+
+.button{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }

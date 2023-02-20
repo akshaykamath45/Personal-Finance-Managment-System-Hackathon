@@ -16,8 +16,10 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Budget from './pages/Budget';
 import Savings from './pages/Savings';
+import Sliders from './pages/Sliders';
+
 // import Signup from './components/Signup';
-const navbarLinks=[{url:"/",title:"Home"},{url:"/Budget",title:"Budgeting"},{url:"https://savingshackniche.netlify.app/",title:"Savings"},{url:"https://insuranceplans.netlify.app/",title:"Insurance"},,{url:"/Login",title:"Stock Recommendation and Gold Price"},{url:"/Signup",title:"SignIn"},{url:"/Login",title:"Log In"}]
+const navbarLinks=[{url:"/",title:"Home"},{url:"/Budget",title:"Budgeting"},{url:"https://savingshackniche.netlify.app/",title:"Saving Schemes"},{url:"https://insuranceplans.netlify.app/",title:"Insurance"},{url:"https://personalrecommendation.netlify.app/",title:"PRS"},{url:"/Login",title:"Stock Recommendation"},{url:"/Signup",title:"SignIn"},{url:"/Login",title:"Log In"}]
 function Landing()  {
   return (
     <div className="App">
@@ -40,7 +42,9 @@ function App(){
           <Route path="/Signup" element={<Signup/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/Budget" element={<Budget/>}/>
+          <Route path="/dashboard" element={<index/>}/>
           <Route path="/Savings" element={<Savings/>}/>
+
         </Routes>
       </Router>
     </div>
