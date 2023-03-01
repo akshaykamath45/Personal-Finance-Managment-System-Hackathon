@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+`This was a 24 hour offline hackathon named as HACKNICHE conducted by GDSC DJSCE and Synapse at our college,Dwarkadas J. Sanghvi College of Enginnering on 17th and 18th February,2023.We got shortlisted among 1100+ participatants in the 1st Round(Resume selection) and got an opportunity to work on a solution to solve this problem statement.We learned a lot from the experience and gained valuable skills in teamwork, problem-solving, and coding.I will update the Tech Stack used and Implementation Features here very soon.`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1><i>Dyme-Manage all your Finance at One Place</i></h1>
 
-## Available Scripts
+# Problem Statement 
+### Automating the process of financial planning and investment management using AI-powered wealth management systems. The platform should provide features like budgeting, expense tracking, investment portfolio management, and financial goal setting.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Landing/Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/73344382/219834084-96ca30be-5ba2-4bd0-abeb-067d68b8eaa9.png)
+![image](https://user-images.githubusercontent.com/73344382/219834160-a9154c1e-40ca-4ae6-9bd5-ec584d5936f3.png)
+![image](https://user-images.githubusercontent.com/73344382/219834291-2f05e93a-d09c-4e17-92f1-1093707f818a.png)
+![image](https://user-images.githubusercontent.com/73344382/219834335-a22a0a4d-e111-47c7-818a-cc5a6407b7ba.png)
 
-### `npm test`
+## Budget and Expense Tracker
+![image](https://user-images.githubusercontent.com/73344382/219834433-c99e8aa7-129b-43ee-9af8-d6b28e5505c6.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Savings Page(Contains Relevant Links)
+![image](https://user-images.githubusercontent.com/73344382/219834570-837d4029-b5f6-403a-a89a-61278da34d07.png)
 
-### `npm run build`
+## On Clicking Calculate on PPF in Savings Page
+![image](https://user-images.githubusercontent.com/73344382/219834760-4ab67006-6361-4f08-a944-b916850fe707.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Insurance Page(Contains Relevant Links)
+![image](https://user-images.githubusercontent.com/73344382/219834834-279f7f5a-b23e-455d-8fb2-a8ada3fd38a1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## SignUp Page
+![image](https://user-images.githubusercontent.com/73344382/219835051-c795c2b9-1014-4c0b-81ed-a0a5d8d405d4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Login Page
+![image](https://user-images.githubusercontent.com/73344382/219835144-3c5a4372-131b-4ebe-8726-72eded1e985d.png)
+ 
+## Dashboard Page on Logging In
+![image](https://user-images.githubusercontent.com/73344382/219835380-6ef68875-829b-4997-9c35-b3940df0fdb3.png)
+![image](https://user-images.githubusercontent.com/73344382/219835428-e01e02f9-9a45-413d-aff2-9d7711892e63.png)
 
-### `npm run eject`
+`This repository contains only the front end part,You can view the full repository` [here](https://github.com/elucidator8918/HackNiche_Code-Crafters)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<hr>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Team Members
+- [Hemant Singh](https://github.com/HemantS404)
+- [Hetansh Shah](https://github.com/Hetens)
+- [Siddhant Dutta](https://github.com/elucidator8918)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
