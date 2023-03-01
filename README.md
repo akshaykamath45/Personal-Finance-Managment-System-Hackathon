@@ -1,4 +1,4 @@
-`This was a 24 hour offline hackathon named as HACKNICHE conducted by GDSC DJSCE and Synapse at our college,Dwarkadas J. Sanghvi College of Enginnering on 17th and 18th February,2023.We got shortlisted among 1100+ participatants in the 1st Round(Resume selection) and got an opportunity to work on a solution to solve this problem statement.We learned a lot from the experience and gained valuable skills in teamwork, problem-solving, and coding.I will update the Tech Stack used and Implementation Features here very soon.`
+`This was a 24 hour offline hackathon named as HACKNICHE conducted by GDSC DJSCE and Synapse at our college,Dwarkadas J. Sanghvi College of Enginnering on 17th and 18th February,2023.We got shortlisted among 1100+ participants in the 1st Round(Resume selection) and got an opportunity to work on a solution to solve this problem statement.We learned a lot from the experience and gained valuable skills in teamwork, problem-solving, and coding.I will update the Tech Stack used and Implementation Features here very soon.`
 
 <h1><i>Dyme-Manage all your Finance at One Place</i></h1>
 
